@@ -1,7 +1,7 @@
 class Elephant {
   doThing = () => {
     console.log(2 + 2);
-    return 'thisisatest3';
+    return 'this tests cascading dependencies';
   };
 }
 

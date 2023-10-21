@@ -8,8 +8,5 @@
     "build": "tsc",
     "watch": "tsc --build --watch --preserveWatchOutput"
   },
-  "devDependencies": {
-    "concurrently": "^8.2.2",
-    "typescript": "^5.2.2"
-  }
+  "devDependencies": {}
 }

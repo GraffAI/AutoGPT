@@ -6,10 +6,10 @@
   "scripts": {
     "format": "prettier --write \"packages/**/*.{js,jsx,ts,tsx,json,md}\"",
     "prepare": "husky install",
-    "lernaWatch": "lerna exec --parallel -- yarn run watch",
-    "watch": "yarn workspaces run watch"
+    "watch": "lerna exec --parallel -- yarn run watch"
   },
   "devDependencies": {
+    "@types/node": "^20.8.7",
     "@typescript-eslint/eslint-plugin": "^6.8.0",
     "@typescript-eslint/parser": "^6.8.0",
     "eslint": "^8.52.0",
@@ -19,7 +19,9 @@
     "lerna": "^7.4.1",
     "nodemon": "^3.0.1",
     "prettier": "^3.0.3",
-    "ts-node": "^10.9.1"
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2",
+    "concurrently": "^8.2.2"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,json,md}": [
