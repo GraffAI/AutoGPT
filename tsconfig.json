@@ -1,15 +1,15 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "module": "CommonJS",
-    "moduleResolution": "node",
     "declaration": true,
-    "jsx": "react",
-    "esModuleInterop": true,
-    "skipLibCheck": true,
+    "declarationMap": true,
+    "outDir": "dist",
+    "baseUrl": "./",
     "composite": true,
-    "baseUrl": "./"
+    "esModuleInterop": true,
+    "module": "CommonJS",
+    "target": "ES2019"
   },
+  "exclude": ["node_modules", "dist"],
   "files": [],
   "references": [
     { "path": "./packages/shared/" },

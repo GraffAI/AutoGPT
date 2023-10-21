@@ -1,4 +1,3 @@
-const test = 'hello';
-console.log('hey');
+import Elephant from './Elephant';
 
-export default test;
+export { Elephant };
