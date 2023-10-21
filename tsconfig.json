@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "declaration": true,
+    "jsx": "react",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "composite": true,
+    "baseUrl": "./"
+  },
+  "files": [],
+  "references": [
+    { "path": "./packages/shared/" },
+    { "path": "./packages/firststeps/" }
+    // ... other package references
+  ]
+}
